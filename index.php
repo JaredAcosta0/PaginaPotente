@@ -1,5 +1,6 @@
 <?php
     require_once 'vendor/autoload.php';
+    require_once 'hf.php';
 
     use Illuminate\Database\Capsule\Manager as Capsule;
     use App\Models\Project;
@@ -48,6 +49,11 @@
         <div class="nav-wrapper cont">
           <a href="#" class="brand-logo">JS0N_Page</a>
          <div class="nave"></div>
+         <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="Calc/Calculadora.php">Calculadora</a></li>
+        <li><a href="ppt/PAT.php">PAT</a></li>
+        <li><a href="divisas/divisas.php">Divisas</a></li>
+        </ul>
         </div>
       </nav>
 
@@ -98,6 +104,13 @@
           <div class="seccion3 col s12 m8 l8"></div>
         </div>
       </section>  
+
+  <br>
+	<footer class="page-footer black" style="margin-top: 3.9rem;">
+	<?php 
+      fin();
+	  ?>  
+	</footer>
       
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>

@@ -42,6 +42,7 @@ const casilla2 = document.getElementById('check');
 casilla1.addEventListener('change', function(e){
 })
 // querySelector es para clases, por eso usamos puntos
+/*
 const sect3=document.querySelector('.seccion3');//Guardamos el div con sección3
 const forms=document.getElementById ('forms'); //Guardamos el formulario
 forms.addEventListener('submit', function(e){
@@ -57,9 +58,9 @@ forms.addEventListener('submit', function(e){
         agregarText(name, apellidos, correo);
         let html=`
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="Calc/Calculadora.html">Calculadora</a></li>
-        <li><a href="ppt/PAT.html">PAT</a></li>
-        <li><a href="collapsible.html">Divisas</a></li>
+        <li><a href="Calc/Calculadora.php">Calculadora</a></li>
+        <li><a href="ppt/PAT.php">PAT</a></li>
+        <li><a href="divisas/divisas.php">Divisas</a></li>
         </ul>`;
       opc.innerHTML = html;
     }
@@ -71,6 +72,7 @@ forms.addEventListener('submit', function(e){
     }
 
 });
+*/
 
 
 function agregarText(name, apellidos,correo){
